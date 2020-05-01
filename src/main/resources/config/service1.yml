@@ -1,0 +1,5 @@
+server:
+  greeting: This is from Service1
+
+message:
+  welcome: Hello World!
