@@ -9,7 +9,10 @@ spring:
     config:
       server:
         git:
-          uri: ${user.home}/Desktop/config
+          uri: https://github.com/codeactuator/rocket-config-repository
+          search-paths:
+                     - project-service
+
 
   application:
       name: config-server
